@@ -39,7 +39,7 @@
         ); 
         if ($sku) {
             $this->_messageManager->addSuccess(
-                __('Sucessfully added to queue')
+                __(' added to queue')
             );
         } else {
             $this->_messageManager->addSuccess(
